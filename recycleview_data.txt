@@ -1,0 +1,162 @@
+{
+    "code": 200,
+    "message": "successfully",
+    "result": {
+        "total": 4,
+        "page": 1,
+        "count": 20,
+        "items": [
+            {
+                "sequence": 20180327,
+                "date": "2018年03月27日",
+                "successed": 2,
+                "failed": 0,
+                "records": [
+                    {
+                        "orderId": "5ab9accce4b05c2b65c31125",
+                        "category": "901",
+                        "no": "1803271030366170126",
+                        "tableNo": "1",
+                        "staffName": "拉卡拉",
+                        "userName": "012012",
+                        "nickName": "悲喜苦甜皆为天赐",
+                        "amount": "200",
+                        "reduceAmount": "200",
+                        "state": "909",
+                        "strategy": {
+                            "id": "5ab9accc60b2bd3002d4881a",
+                            "finalAmount": "0",
+                            "used": [
+                                {
+                                    "type": "COUPONCONSUME",
+                                    "couponId": "5a572e33e4b0091c21a1ce67",
+                                    "content": "100元代金券",
+                                    "amount": "100",
+                                    "count": 1
+                                },
+                                {
+                                    "type": "CHARGECONSUME",
+                                    "content": "使用充值卡",
+                                    "amount": "90"
+                                },
+                                {
+                                    "type": "REWARD",
+                                    "content": "代用币",
+                                    "amount": "10"
+                                }
+                            ],
+                            "coupons": [
+                                {
+                                    "category": "901",
+                                    "name": "20元代金券",
+                                    "amount": 20,
+                                    "currentAmount": 0,
+                                    "value": 20,
+                                    "effectTimes": "自发放之日起1天后开始生效，有效期30天",
+                                    "count": 1
+                                }
+                            ],
+                            "points": {
+                                "amount": "100",
+                                "point": "10"
+                            }
+                        },
+                        "checkTime": "2018/03/27 10:31:00",
+                        "paymentMode": "1001",
+                        "paymentModeText": "现金"
+                    },
+                    {
+                        "orderId": "5ab9acb6e4b05c2b65c31124",
+                        "category": "901",
+                        "no": "1803271030144290116",
+                        "tableNo": "2",
+                        "staffName": "拉卡拉",
+                        "amount": "200",
+                        "reduceAmount": "0",
+                        "state": "909",
+                        "strategy": {
+                            "id": "5ab9acb660b2bd3002d48815",
+                            "finalAmount": "200",
+                            "coupons": [
+                                {
+                                    "category": "901",
+                                    "name": "20元代金券",
+                                    "amount": 20,
+                                    "currentAmount": 0,
+                                    "value": 20,
+                                    "effectTimes": "自发放之日起1天后开始生效，有效期30天",
+                                    "count": 1
+                                }
+                            ],
+                            "points": {
+                                "amount": "200",
+                                "point": "20"
+                            }
+                        },
+                        "checkTime": "2018/03/27 10:30:16",
+                        "paymentMode": "1001",
+                        "paymentModeText": "现金"
+                    }
+                ]
+            },
+            {
+                "sequence": 20180321,
+                "date": "2018年03月21日",
+                "successed": 2,
+                "failed": 0,
+                "records": [
+                    {
+                        "orderId": "5ab20d24e4b07b01db8cb48f",
+                        "category": "901",
+                        "no": "1803211543324290162",
+                        "tableNo": "2",
+                        "staffName": "拉卡拉",
+                        "amount": "20",
+                        "reduceAmount": "0",
+                        "state": "909",
+                        "strategy": {
+                            "id": "5ab20d2460b2c2ef03e331cc",
+                            "finalAmount": "20"
+                        },
+                        "checkTime": "2018/03/21 15:43:40",
+                        "paymentMode": "1001",
+                        "paymentModeText": "现金"
+                    },
+                    {
+                        "orderId": "5ab20d1ce4b07b01db8cb48e",
+                        "category": "901",
+                        "no": "1803211543240080112",
+                        "tableNo": "2",
+                        "staffName": "拉卡拉",
+                        "amount": "200",
+                        "reduceAmount": "0",
+                        "state": "909",
+                        "strategy": {
+                            "id": "5ab20d1c60b2c2ef03e331c2",
+                            "finalAmount": "200",
+                            "coupons": [
+                                {
+                                    "category": "901",
+                                    "name": "20元代金券",
+                                    "amount": 20,
+                                    "currentAmount": 0,
+                                    "value": 20,
+                                    "effectTimes": "自发放之日起1天后开始生效，有效期30天",
+                                    "count": 1
+                                }
+                            ],
+                            "points": {
+                                "amount": "200",
+                                "point": "20"
+                            }
+                        },
+                        "checkTime": "2018/03/21 15:43:25",
+                        "paymentMode": "1001",
+                        "paymentModeText": "现金"
+                    }
+                ]
+            }
+        ],
+        "pageSize": 1
+    }
+}
